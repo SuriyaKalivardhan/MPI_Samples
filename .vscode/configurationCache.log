@@ -1,0 +1,1 @@
+{"buildTargets":["clean","depth1","depth2","docker-build","run","showlog"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
