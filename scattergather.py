@@ -6,8 +6,8 @@ comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
 
-logging.basicConfig(
-    format='%(asctime)s     %(message)s', filename=f'/tmp/mpi_{rank}.log', level=logging.INFO)
+#logging.basicConfig(format='%(asctime)s     %(message)s', filename=f'/tmp/mpi_{rank}.log', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s     %(message)s', level=logging.INFO)
 
 input = []
 if rank==0:
